@@ -1,5 +1,5 @@
 def sort_array_asc(num)
   num.sort do |a, b|
-    an <=> b
+    a <=> b
     end
   end
