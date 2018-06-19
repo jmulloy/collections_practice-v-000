@@ -9,7 +9,7 @@ def sort_array_desc(num)
   end
 end
 def sort_array_char_count(array)
-  def swap_elements(array)
-  array[1], array[2] = array[2], array[1]
-  array
+  array.sort do |left, right|
+    left.length <=> right.length
+  end
 end
